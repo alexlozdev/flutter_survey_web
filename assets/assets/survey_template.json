@@ -1,0 +1,2165 @@
+{
+    "groups": [
+        {
+            "index": 1,
+            "name": "Structural",
+            "id": "stc",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Foundation-Inspection method & accessible areas",
+                            "description": "evl_stc_inspmethod_dsp",
+                            "status": "evl_stc_inspmethod_sts",
+                            "remark": "evl_stc_inspmethod_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Floor/Slab",
+                            "description": "evl_stc_floorslab_dsp",
+                            "status": "evl_stc_floorslab_sts",
+                            "remark": "evl_stc_floorslab_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_floorslab_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Subfloor",
+                            "description": "evl_stc_subfloor_dsp",
+                            "status": "evl_stc_subfloor_sts",
+                            "remark": "evl_stc_subfloor_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_subfloor_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Pier/Columns/Found",
+                            "description": "evl_stc_pierwall_dsp",
+                            "status": "evl_stc_pierwall_sts",
+                            "remark": "evl_stc_pierwall_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Wall",
+                                    "values": "evl_stc_pierwall_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Floor Joist & Sills",
+                            "description": "evl_stc_floorjoist_dsp",
+                            "status": "evl_stc_floorjoist_sts",
+                            "remark": "evl_stc_floorjoist_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_floorjoist_rem"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Girder",
+                            "description": "evl_stc_girder_dsp",
+                            "status": "evl_stc_girder_sts",
+                            "remark": "evl_stc_girder_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_girder_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Moisture",
+                            "description": "evl_stc_moisture_dsp",
+                            "status": "evl_stc_moisture_sts",
+                            "remark": "evl_stc_moisture_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "wood moisture content(Acceptable levels are below 19%)",
+                                    "values": "evl_stc_moisture_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Sump pump",
+                            "description": "evl_stc_sumppump_dsp",
+                            "status": "evl_stc_sumppump_sts",
+                            "remark": "evl_stc_sumppump_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Crawl Space Vapor Barrier",
+                            "description": "evl_stc_crawlspace_dsp",
+                            "status": "evl_stc_crawlspace_sts",
+                            "remark": "evl_stc_crawlspace_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_crawlspace_desc"
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Roof Details",
+                    "questions": [
+                        {
+                            "name": "Roof Framing",
+                            "description": "evl_stc_roofframe_dsp",
+                            "status": "evl_stc_roofframe_sts",
+                            "remark": "evl_stc_roofframe_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_roofframe_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Ceiling Joinsts",
+                            "description": "evl_stc_ceilingjoist_dsp",
+                            "status": "evl_stc_ceilingjoist_sts",
+                            "remark": "evl_stc_ceilingjoist_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_ceilingjoist_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Roof Decking",
+                            "description": "evl_stc_roofdeck_dsp",
+                            "status": "evl_stc_roofdeck_sts",
+                            "remark": "evl_stc_roofdeck_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_stc_roofdeck_desc"
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Wall Details",
+                    "questions": [
+                        {
+                            "name": "Exterior/Interior Walls",
+                            "description": "evl_stc_intextwall_dsp",
+                            "status": "evl_stc_intextwall_sts",
+                            "remark": "evl_stc_intextwall_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Structural Item (If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 2,
+            "id" : "ext",
+            "name": "Exterior",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Wall cladding",
+                            "description": "evl_ext_siding_dsp",
+                            "status": "evl_ext_siding_sts",
+                            "remark": "evl_ext_siding_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_siding_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Flashing",
+                            "description": "evl_ext_flashing_dsp",
+                            "status": "evl_ext_flashing_sts",
+                            "remark": "evl_ext_flashing_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Trim",
+                            "description": "evl_ext_trim_dsp",
+                            "status": "evl_ext_trim_sts",
+                            "remark": "evl_ext_trim_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Front Door",
+                            "description": "evl_ext_frtdoor_dsp",
+                            "status": "evl_ext_frtdoor_sts",
+                            "remark": "evl_ext_frtdoor_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_frtdoor_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Rear doors",
+                            "description": "evl_ext_reardoor_dsp",
+                            "status": "evl_ext_reardoor_sts",
+                            "remark": "evl_ext_reardoor_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_reardoor_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Side doors",
+                            "description": "evl_ext_sidedoor_dsp",
+                            "status": "evl_ext_sidedoor_sts",
+                            "remark": "evl_ext_sidedoor_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_sidedoor_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Sliding Glass Door",
+                            "description": "evl_ext_sldgdoor_dsp",
+                            "status": "evl_ext_sldgdoor_sts",
+                            "remark": "evl_ext_sldgdoor_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_sldgdoor_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Windws - (extrior side)",
+                            "description": "evl_ext_window_dsp",
+                            "status": "evl_ext_window_sts",
+                            "remark": "evl_ext_window_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_window_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Garage",
+                            "description": "evl_ext_grade_dsp",
+                            "status": "evl_ext_grade_sts",
+                            "remark": "evl_ext_grade_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Door opener",
+                                    "values": "evl_ext_grade_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Deck",
+                            "description": "evl_ext_deck_dsp",
+                            "status": "evl_ext_deck_sts",
+                            "remark": "evl_ext_deck_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_deck_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Deck Rails",
+                            "description": "evl_ext_deckrail_dsp",
+                            "status": "evl_ext_deckrail_sts",
+                            "remark": "evl_ext_deckrail_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_deckrail_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Exterior Balcony",
+                            "description": "evl_ext_balcony_dsp",
+                            "status": "evl_ext_balcony_sts",
+                            "remark": "evl_ext_balcony_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_balcony_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Exterior Balcony Rails",
+                            "description": "evl_ext_balcrail_dsp",
+                            "status": "evl_ext_balcrail_sts",
+                            "remark": "evl_ext_balcrail_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_balcrail_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Stoop",
+                            "description": "evl_ext_stoop_dsp",
+                            "status": "evl_ext_stoop_sts",
+                            "remark": "evl_ext_stoop_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_stoop_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Stoop Rails",
+                            "description": "evl_ext_stprail_dsp",
+                            "status": "evl_ext_stprail_sts",
+                            "remark": "evl_ext_stprail_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_stprail_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Porch",
+                            "description": "evl_ext_porch_dsp",
+                            "status": "evl_ext_porch_sts",
+                            "remark": "evl_ext_porch_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_porch_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Porch Rails",
+                            "description": "evl_ext_pchrail_dsp",
+                            "status": "evl_ext_pchrail_sts",
+                            "remark": "evl_ext_pchrail_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_pchrail_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Soffit/Eaves",
+                            "description": "evl_ext_eaves_dsp",
+                            "status": "evl_ext_eaves_sts",
+                            "remark": "evl_ext_eaves_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_eaves_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Fascia",
+                            "description": "evl_ext_fascias_dsp",
+                            "status": "evl_ext_fascias_sts",
+                            "remark": "evl_ext_fascias_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_fascias_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Driveway",
+                            "description": "evl_ext_drvway_dsp",
+                            "status": "evl_ext_drvway_sts",
+                            "remark": "evl_ext_drvway_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_drvway_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Patios/Slabs",
+                            "description": "evl_ext_patio_dsp",
+                            "status": "evl_ext_patio_sts",
+                            "remark": "evl_ext_patio_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_patio_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Walks",
+                            "description": "evl_ext_walks_dsp",
+                            "status": "evl_ext_walks_sts",
+                            "remark": "evl_ext_walks_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_walks_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Retaining Walls",
+                            "description": "evl_ext_rtainwall_dsp",
+                            "status": "evl_ext_rtainwall_sts",
+                            "remark": "evl_ext_rtainwall_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_rtainwall_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Vegetation",
+                            "description": "evl_ext_vege_dsp",
+                            "status": "evl_ext_vege_sts",
+                            "remark": "evl_ext_vege_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ext_vege_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Trees/Limbs",
+                            "description": "evl_ext_trees_dsp",
+                            "status": "evl_ext_trees_sts",
+                            "remark": "evl_ext_trees_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Grade/Drainage",
+                            "description": "evl_ext_grade_dsp",
+                            "status": "evl_ext_grade_sts",
+                            "remark": "evl_ext_grade_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Exterior Items (If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 3,
+            "id": "rof",
+            "name": "Roof",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": [
+                                {
+                                    "name": "age",
+                                    "value": "",
+                                    "number": true
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Roof covering-Roof Style",
+                            "description": "evl_rof_material_dsp",
+                            "status": "evl_rof_material_sts",
+                            "remark": "evl_rof_material_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Roof Coverings",
+                                    "values": "evl_rof_material_desc"
+                                },
+                                {
+                                    "name": "Roof Style",
+                                    "values": "evl_rof_style_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Gutters",
+                            "description": "evl_rof_gutter_dsp",
+                            "status": "evl_rof_gutter_sts",
+                            "remark": "evl_rof_gutter_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_rof_gutter_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Downspouts",
+                            "description": "evl_rof_downspt_dsp",
+                            "status": "evl_rof_downspt_sts",
+                            "remark": "evl_rof_downspt_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_rof_downspt_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Splash Blocks Discharge",
+                            "description": "evl_rof_splshblk_dsp",
+                            "status": "evl_rof_splshblk_sts",
+                            "remark": "evl_rof_splshblk_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_rof_splshblk_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Flashing & Roof Penetrations",
+                            "description": "evl_rof_flashing_dsp",
+                            "status": "evl_rof_flashing_sts",
+                            "remark": "evl_rof_flashing_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Skylights",
+                            "description": "evl_rof_skylights_dsp",
+                            "status": "evl_rof_skylights_sts",
+                            "remark": "evl_rof_skylights_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Water Penetration",
+                            "description": "evl_rof_waterpent_dsp",
+                            "status": "evl_rof_waterpent_sts",
+                            "remark": "evl_rof_waterpent_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Roof Items (if Needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 4,
+            "id": "plb",
+            "name": "Plumbing",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "Water supply details",
+                    "questions": [
+                        {
+                            "name": "Water supply type",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_water_sewer_type"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "water supply",
+                            "description": "evl_plb_watersply_dsp",
+                            "status": "evl_plb_watersply_sts",
+                            "remark": "evl_plb_watersply_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_plb_watersply_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Well pump",
+                            "description": "evl_plb_wellpmp_dsp",
+                            "status": "evl_plb_wellpmp_sts",
+                            "remark": "evl_plb_wellpmp_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_plb_wellpmp_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "age",
+                                    "value": "evl_plb_wellpmp_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Water Shut Off Location",
+                            "description": "evl_plb_watershutoff_dsp",
+                            "status": "evl_plb_watershutoff_sts",
+                            "remark": "evl_plb_watershutoff_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_plb_watershutoff_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Water Pressure",
+                            "description": "evl_plb_waterpress_dsp",
+                            "status": "evl_plb_waterpress_sts",
+                            "remark": "evl_plb_waterpress_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Approximate P.S.I.G",
+                                    "values": "evl_plb_waterpress_desc"
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Water Distribution Details",
+                    "questions": [
+                        {
+                            "name": "water pipes",
+                            "description": "evl_plb_wtrpipes_dsp",
+                            "status": "evl_plb_wtrpipes_sts",
+                            "remark": "evl_plb_wtrpipes_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_plb_wtrpipes_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "functional flow",
+                            "description": "evl_plb_functflow_dsp",
+                            "status": "evl_plb_functflow_sts",
+                            "remark": "evl_plb_functflow_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "water pipe support",
+                            "description": "evl_plb_wtrpipesupp_dsp",
+                            "status": "evl_plb_wtrpipesupp_sts",
+                            "remark": "evl_plb_wtrpipesupp_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Water pipe Insulation",
+                            "description": "evl_plb_wtrinsulation_dsp",
+                            "status": "evl_plb_wtrinsulation_sts",
+                            "remark": "evl_plb_wtrinsulation_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Waste & Vent Pipe Details",
+                    "questions": [
+                        {
+                            "name": "Waste & Vent Pipes",
+                            "description": "evl_plb_wastevent_dsp",
+                            "status": "evl_plb_wastevent_sts",
+                            "remark": "evl_plb_wastevent_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_plb_wastevent_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Functional Drainage",
+                            "description": "evl_plb_functdrain_dsp",
+                            "status": "evl_plb_functdrain_sts",
+                            "remark": "evl_plb_functdrain_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Waste & Vent Pipe Support",
+                            "description": "evl_plb_wvpipesupp_dsp",
+                            "status": "evl_plb_wvpipesupp_sts",
+                            "remark": "evl_plb_wvpipesupp_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Equipment & Fuel Storage",
+                    "questions": [
+                        {
+                            "name": "Waste Pump(Sometimes Called A Life Station)",
+                            "description": "evl_plb_sumppump_dsp",
+                            "status": "evl_plb_sumppump_sts",
+                            "remark": "evl_plb_sumppump_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Interior Fuel Storage / Fuel Supply & vent Piping",
+                            "description": "evl_plb_fuelsupp_dsp",
+                            "status": "evl_plb_fuelsupp_sts",
+                            "remark": "evl_plb_fuelsupp_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Plumbing Fixtures",
+                    "questions": [
+                        {
+                            "name": "Outside Faucets",
+                            "description": "evl_plb_outfaucet_dsp",
+                            "status": "evl_plb_outfaucet_sts",
+                            "remark": "evl_plb_outfaucet_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Kitchen sink",
+                            "description": "evl_plb_ktnsink_dsp",
+                            "status": "evl_plb_ktnsink_sts",
+                            "remark": "evl_plb_ktnsink_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Laundry Connections",
+                            "description": "evl_plb_laundryconn_dsp",
+                            "status": "evl_plb_laundryconn_sts",
+                            "remark": "evl_plb_laundryconn_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_plb_laundryconn_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Plumbing Items (If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 5,
+            "id": "wth",
+            "name": "water Heater",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Water heater",
+                            "description": "evl_wth_dsp",
+                            "status": "evl_wth_sts",
+                            "remark": "evl_wth_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_wth_type"
+                                }
+                            ],
+                            "radios": [
+                                {
+                                    "name": "Manufaturer",
+                                    "values": "evl_wth_manufctr"
+                                },
+                                {
+                                    "name": "Water Heater Location",
+                                    "values": ""
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Estimated Age",
+                                    "value": "evl_wth_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial Number",
+                                    "value": "evl_wth_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Model Number",
+                                    "value": "evl_wth_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Water Temprature",
+                                    "value": "evl_wth_txt",
+                                    "number": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 6,
+            "id": "btr",
+            "name": "Bathroom",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Bath fixtures",
+                            "description": "evl_btr_dsp",
+                            "status": "evl_btr_sts",
+                            "remark": "evl_btr_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_btr_desc"
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 7,
+            "id": "elt",
+            "name": "Electrical",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Service Entrance",
+                            "description": "evl_elt_serviceent_dsp",
+                            "status": "evl_elt_serviceent_sts",
+                            "remark": "evl_elt_serviceent_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_elt_serviceent_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Service Wires Size & Type",
+                            "description": "evl_elt_servwire_dsp",
+                            "status": "evl_elt_servwire_sts",
+                            "remark": "evl_elt_servwire_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_elt_servwire_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Grounding Equipment",
+                            "description": "evl_elt_grndequip_dsp",
+                            "status": "evl_elt_grndequip_sts",
+                            "remark": "evl_elt_grndequip_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_elt_grndequip_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Main Panel",
+                            "description": "evl_elt_mainpnl_dsp",
+                            "status": "evl_elt_mainpnl_sts",
+                            "remark": "evl_elt_mainpnl_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Located at",
+                                    "values": "evl_elt_mainpnl_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Sub Panels",
+                            "description": "evl_elt_subpnl_dsp",
+                            "status": "evl_elt_subpnl_sts",
+                            "remark": "evl_elt_subpnl_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Located at",
+                                    "values": "evl_elt_subpnl_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Over Current/Fault Protection",
+                            "description": "evl_elt_ovrcurr_dsp",
+                            "status": "evl_elt_ovrcurr_sts",
+                            "remark": "evl_elt_ovrcurr_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_elt_ovrcurr_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Ground Fault Protection",
+                            "description": "evl_elt_gfci_dsp",
+                            "status": "evl_elt_gfci_sts",
+                            "remark": "evl_elt_gfci_rem",
+                            "checks": [
+                                {
+                                    "name": "Currently present at",
+                                    "values": "evl_elt_gfci_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "110 Volt Circuits",
+                            "description": "evl_elt_oneten_dsp",
+                            "status": "evl_elt_oneten_sts",
+                            "remark": "evl_elt_oneten_rem",
+                            "checks": [
+                                {
+                                    "name": "material",
+                                    "values": "evl_elt_oneten_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "220 Volt Circuits",
+                            "description": "evl_elt_twotwnty_dsp",
+                            "status": "evl_elt_twotwnty_sts",
+                            "remark": "evl_elt_twotwnty_rem",
+                            "checks": [
+                                {
+                                    "name": "Material",
+                                    "values": "evl_elt_oneten_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Receptacles(representative#)",
+                            "description": "evl_elt_recpt_dsp",
+                            "status": "evl_elt_recpt_sts",
+                            "remark": "evl_elt_recpt_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_elt_recpt_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Interior Light Fixtures, Ceiling Fans & Switches",
+                            "description": "evl_elt_intswitch_dsp",
+                            "status": "evl_elt_intswitch_sts",
+                            "remark": "evl_elt_intswitch_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Exterior Light Fixtures, Ceiling Fans & Switches",
+                            "description": "evl_elt_extswitch_dsp",
+                            "status": "evl_elt_extswitch_sts",
+                            "remark": "evl_elt_extswitch_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Smoke Detectors",
+                            "description": "evl_elt_smkdect_dsp",
+                            "status": "evl_elt_smkdect_sts",
+                            "remark": "evl_elt_smkdect_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "DoorBell",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Electrical Item (If Needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 8,
+            "id": "htr",
+            "name": "Heating",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [
+                                {
+                                    "name": "Heating Unit Description",
+                                    "values": "evl_htr_unit_desc"
+                                },
+                                {
+                                    "name": "System",
+                                    "values": "evl_htr_system"
+                                },
+                                {
+                                    "name": "Type",
+                                    "values": "evl_htr_systype"
+                                },
+                                {
+                                    "name": "Unit Location",
+                                    "values": "evl_htr_location"
+                                }
+                            ],
+                            "radios": [
+                                {
+                                    "name": "Heating Unit MFG#1",
+                                    "values": "evl_htr_manufacturer"
+                                },
+                                {
+                                    "name": "Area Served",
+                                    "values": "evl_htr_unit_areaserv"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Heating Unit MFG #1",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "model number",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "serial number",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Approximate Age(in years)",
+                                    "value": "",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Heating Equipment",
+                            "description": "evl_htr_unit_dsp",
+                            "status": "evl_htr_unit_sts",
+                            "remark": "evl_htr_unit_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Operation - Air Temp.RISE",
+                            "description": "evl_htr_airtemp_dsp",
+                            "status": "evl_htr_airtemp_sts",
+                            "remark": "evl_htr_airtemp_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": [
+                                {
+                                    "name": "Return",
+                                    "value": "evl_htr_airtemp_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Supply",
+                                    "value": "evl_htr_airtemp_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Operating & Safety Controls",
+                            "description": "evl_htr_opsafectrl_dsp",
+                            "status": "evl_htr_opsafectrl_sts",
+                            "remark": "evl_htr_opsafectrl_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Flue",
+                            "description": "evl_htr_flue_dsp",
+                            "status": "evl_htr_flue_sts",
+                            "remark": "evl_htr_flue_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Heating Item (If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 9,
+            "id": "fpl",
+            "name": "Fireplace",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Fireplace",
+                            "description": "evl_fpl_unit_dsp",
+                            "status": "evl_fpl_unit_sts",
+                            "remark": "evl_fpl_unit_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "description",
+                                    "values": "evl_fpl_unit_desc"
+                                },
+                                {
+                                    "name": "Location",
+                                    "values": "evl_fpl_unit_loc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Gas Logs",
+                            "description": "evl_fpl_gaslog_dsp",
+                            "status": "evl_fpl_gaslog_sts",
+                            "remark": "evl_fpl_gaslog_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Damper",
+                            "description": "evl_fpl_damper_dsp",
+                            "status": "evl_fpl_damper_sts",
+                            "remark": "evl_fpl_damper_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Chimney/Flue Condition",
+                            "description": "evl_fpl_chimney_dsp",
+                            "status": "evl_fpl_chimney_sts",
+                            "remark": "evl_fpl_chimney_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional fireplace Item (If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 10,
+            "id": "clg",
+            "name": "Air Conditioning",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [
+                                {
+                                    "name": "System",
+                                    "values": "evl_clg_ac_system"
+                                },
+                                {
+                                    "name": "Type",
+                                    "values": "evl_clg_ac_type"
+                                },
+                                {
+                                    "name": "Location",
+                                    "values": "evl_clg_location"
+                                },
+                                {
+                                    "name": "Energy",
+                                    "values": "evl_clg_acenergy"
+                                }
+                            ],
+                            "radios": [
+                                {
+                                    "name": "A/C MFG UNIT#",
+                                    "values": "evl_clg_acmanufctr"
+                                },
+                                {
+                                    "name": "Total capacity",
+                                    "values": "evl_clg_cap"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Model Number",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial Number",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Approximate Age(in years)",
+                                    "value": "",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "A/C Equipment",
+                            "description": "evl_clg_equip_dsp",
+                            "status": "evl_clg_equip_sts",
+                            "remark": "evl_clg_equip_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Operation - Air TEMP.DROP",
+                            "description": "evl_clg_airdrop_dsp",
+                            "status": "evl_clg_airdrop_sts",
+                            "remark": "evl_clg_airdrop_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": [
+                                {
+                                    "name": "Return",
+                                    "value": "evl_clg_airdrop_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Supply",
+                                    "value": "evl_clg_airdrop_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "A/C Operating Controls",
+                            "description": "evl_clg_controls_dsp",
+                            "status": "evl_clg_controls_sts",
+                            "remark": "evl_clg_controls_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional A/C Item(If needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 11,
+            "id": "dct",
+            "name": "Ducts",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Ducts",
+                            "description": "evl_dct_ducts_dsp",
+                            "status": "evl_dct_ducts_sts",
+                            "remark": "evl_dct_ducts_rem",
+                            "checks": [
+                                {
+                                    "name": "includes supports & insl",
+                                    "values": ""
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Filter",
+                            "description": "evl_dct_filter_dsp",
+                            "status": "evl_dct_filter_sts",
+                            "remark": "evl_dct_filter_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Size(s)",
+                                    "values": ""
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Duct Item (if Needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 12,
+            "id": "int",
+            "name": "Interior",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Walls & Ceilings",
+                            "description": "evl_int_wallceil_dsp",
+                            "status": "evl_int_wallceil_sts",
+                            "remark": "evl_int_wallceil_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Floors (does not include carpeting or finish treatments)",
+                            "description": "evl_int_floors_dsp",
+                            "status": "evl_int_floors_sts",
+                            "remark": "evl_int_floors_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Steps & Stairways",
+                            "description": "evl_int_steps_dsp",
+                            "status": "evl_int_steps_sts",
+                            "remark": "evl_int_steps_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Interior Balcony & railings",
+                            "description": "evl_int_balcony_dsp",
+                            "status": "evl_int_balcony_sts",
+                            "remark": "evl_int_balcony_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Counters & Built-In Cabinets(representive#)",
+                            "description": "evl_int_cntrscabs_dsp",
+                            "status": "evl_int_cntrscabs_sts",
+                            "remark": "evl_int_cntrscabs_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Window(interior side of windows)",
+                            "description": "evl_int_windows_dsp",
+                            "status": "evl_int_windows_sts",
+                            "remark": "evl_int_windows_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Interior Items (if needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 13,
+            "id": "ins",
+            "name": "Insulation & Ventilation",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Basement Insulation",
+                            "description": "evl_ins_basement_dsp",
+                            "status": "evl_ins_basement_sts",
+                            "remark": "evl_ins_basement_rem",
+                            "checks": [
+                                {
+                                    "name": "in thick",
+                                    "values": "evl_ins_basement_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Crawlspace Insulation",
+                            "description": "evl_ins_crawl_dsp",
+                            "status": "evl_ins_crawl_sts",
+                            "remark": "evl_ins_crawl_rem",
+                            "checks": [
+                                {
+                                    "name": "in thick",
+                                    "values": "evl_ins_basement_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Attic Insulation",
+                            "description": "evl_ins_attic_dsp",
+                            "status": "",
+                            "remark": "evl_ins_attic_rem",
+                            "checks": [
+                                {
+                                    "name": "in thick",
+                                    "values": "evl_ins_basement_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Vapor Retarders",
+                            "description": "evl_ins_vapor_dsp",
+                            "status": "evl_ins_vapor_sts",
+                            "remark": "evl_ins_vapor_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ins_vapor_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Crawlspace Ventilation",
+                            "description": "evl_ins_crlvent_dsp",
+                            "status": "evl_ins_crlvent_sts",
+                            "remark": "evl_ins_crlvent_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ins_crlvent_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Attic Ventilation",
+                            "description": "evl_ins_atcvent_dsp",
+                            "status": "evl_ins_atcvent_sts",
+                            "remark": "evl_ins_atcvent_rem",
+                            "checks": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ins_atcvent_desc"
+                                }
+                            ],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Whole House Fan",
+                            "description": "evl_ins_wholefan_dsp",
+                            "status": "evl_ins_wholefan_sts",
+                            "remark": "evl_ins_wholefan_rem",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        },
+                        {
+                            "name": "Bathroom Vents",
+                            "description": "evl_ins_bathvent_dsp",
+                            "status": "evl_ins_bathvent_sts",
+                            "remark": "evl_ins_bathvent_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ins_bathvent_desc"
+                                }
+                            ],
+                            "texts": []
+                        },
+                        {
+                            "name": "Dry Vent",
+                            "description": "evl_ins_dryervent_dsp",
+                            "status": "evl_ins_dryervent_sts",
+                            "remark": "evl_ins_dryervent_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_ins_dryervent_desc"
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Insulation Items(if needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 14,
+            "id": "app",
+            "name": "Appliances",
+            "countable": true,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "Kitchen Dish washer",
+                            "description": "evl_app_dishwsh_dsp",
+                            "status": "evl_app_dishwsh_sts",
+                            "remark": "evl_app_dishwsh_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_dishwsh_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "age(in years)",
+                                    "value": "evl_app_dishwsh_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_dishwsh_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_dishwsh_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Range",
+                            "description": "evl_app_range_dsp",
+                            "status": "evl_app_range_sts",
+                            "remark": "evl_app_range_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufaturer",
+                                    "values": "evl_app_rnghood_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Age(in years)",
+                                    "value": "evl_app_range_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_range_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_range_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Oven",
+                            "description": "evl_app_oven_dsp",
+                            "status": "evl_app_oven_sts",
+                            "remark": "evl_app_oven_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "",
+                                    "values": "evl_app_oven_desc"
+                                },
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_mcrwave_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "age(in years)",
+                                    "value": "evl_app_oven_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_oven_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_oven_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Trash compactor",
+                            "description": "evl_app_trashcmp_dsp",
+                            "status": "evl_app_trashcmp_sts",
+                            "remark": "evl_app_trashcmp_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_trashcmp_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Age(in years)",
+                                    "value": "evl_app_trashcmp_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_trashcmp_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_trashcmp_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Garbage Disposal",
+                            "description": "evl_app_grbdisp_dsp",
+                            "status": "evl_app_grbdisp_sts",
+                            "remark": "evl_app_grbdisp_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_grbdisp_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Age(in years)",
+                                    "value": "evl_app_grbdisp_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_grbdisp_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_grbdisp_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Range Hood Vent",
+                            "description": "evl_app_rnghood_dsp",
+                            "status": "evl_app_rnghood_sts",
+                            "remark": "evl_app_rnghood_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_rnghood_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_rnghood_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_rnghood_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Microwave(built-in)",
+                            "description": "evl_app_mcrwave_dsp",
+                            "status": "evl_app_mcrwave_sts",
+                            "remark": "evl_app_mcrwave_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_mcrwave_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Age(in years)",
+                                    "value": "evl_app_mcrwave_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_mcrwave_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_mcrwave_txt",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "refrigerator",
+                            "description": "evl_app_fridge_dsp",
+                            "status": "evl_app_fridge_sts",
+                            "remark": "evl_app_fridge_rem",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Manufacturer",
+                                    "values": "evl_app_fridge_manu"
+                                }
+                            ],
+                            "texts": [
+                                {
+                                    "name": "Age(in years)",
+                                    "value": "evl_app_fridge_txt",
+                                    "number": true
+                                },
+                                {
+                                    "name": "Model#",
+                                    "value": "evl_app_fridge_txt",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Serial#",
+                                    "value": "evl_app_fridge_txt",
+                                    "number": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Additional Appliance Items (if needed)",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "empty",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "index": 15,
+            "id": "elt",
+            "name": "Safety Inspection",
+            "countable": false,
+            "subs": [
+                {
+                    "name": "",
+                    "questions": [
+                        {
+                            "name": "",
+                            "description": "empty",
+                            "status": "",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [],
+                            "texts": [
+                                {
+                                    "name": "Smoke Detectors#",
+                                    "value": "",
+                                    "number": false
+                                },
+                                {
+                                    "name": "Smoke Detectors Work?",
+                                    "value": "",
+                                    "number": false
+                                }
+                            ]
+                        },
+                        {
+                            "name": "",
+                            "description": "",
+                            "status": "",
+                            "remark": "",
+                            "checks": [],
+                            "radios": [
+                                {
+                                    "name": "Carbon Monoxide detectors#",
+                                    "values": ""
+                                }
+                            ],
+                            "texts": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
